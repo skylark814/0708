@@ -150,6 +150,15 @@ var Item8Layer = cc.Layer.extend({
         //音效(effect)：一次可多個  音樂(music)：一次一個
         // cc.audioEngine.playMusic(res.win,false);
 
+        // this.sprite.runAction(cc.jumpTo(1,cc.p(this.sprite.x,this.sprite.y),250,1));
+
+        let a6 = new cc.ProgressTo(10,100);
+        let timer = new cc.ProgressTimer(this.sprite);
+        timer.setType(cc.ProgressTimer.TYPE_RADIAL);
+        timer.setPosition(cc.p(100,cc.winSize.height/2));
+        this.addChild(timer);
+        timer.runAction(a6);
+
     },
 
     f1: function (target, mesg) {

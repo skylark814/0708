@@ -26,7 +26,12 @@ var res = {
     HelloWorld_png : "res/HelloWorld.png",
     s1_png : "res/s1.png",
     s1_plist : "res/s1.plist",
-    s1_0025_png:"res/s1_0025.png"
+    s1_0025_png:"res/s1_0025.png",
+    bg1_jpg:"res/bg1.jpg",
+    win:"res/win.wav",
+    lose:"res/lose.wav",
+    box:"res/box.png"
+
 
 };
 
