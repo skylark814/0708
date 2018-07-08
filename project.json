@@ -13,6 +13,9 @@
 
     "jsList" : [
         "src/resource.js",
-        "src/app.js"
+        "src/app.js",
+        "src/menu.js",
+        "src/item8.js"
+
     ]
 }
